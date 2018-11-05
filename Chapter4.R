@@ -1,4 +1,4 @@
-#### data spliting
+## data spliting
 
 library(AppliedPredictiveModeling)
 data(twoClassData)
@@ -16,7 +16,7 @@ testClasses <- class[-trainingRows]
 
 str(trainPredictors)
 
-#### Resampling
+## Resampling
 
 set.seed(1)
 repeatedSplits <- createDataPartition(trainClasses, p=.80,times = 3)
